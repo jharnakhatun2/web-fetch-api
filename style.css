@@ -15,6 +15,7 @@ button{
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 500;
+    border-radius: 60px;
 }
 button:nth-child(1) {
     background-color: #0ba546;
@@ -23,4 +24,13 @@ button:nth-child(1) {
 button:nth-child(1):hover {
     background-color: #65f59c;
     border: 2px solid #51f590;
+}
+button:nth-child(2) {
+    background-color: #0e0ba5;
+    border: 2px solid #0e0ba5;
+    color: white;
+}
+button:nth-child(2):hover {
+    background-color: #7d7bfc;
+    border: 2px solid rgb(124, 122, 252);
 }
